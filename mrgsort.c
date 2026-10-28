@@ -1,4 +1,4 @@
-/*  Merge and radix sort C functions
+/*  Merge sort C function
     Copyright (C) 2024 Andrzej Urbaniak
 
     This program is free software: you can redistribute it and/or modify

@@ -1,4 +1,4 @@
-/*  Merge and radix sort C functions
+/*  Merge sort C function
     Copyright (C) 2024 Andrzej Urbaniak
 
     This program is free software: you can redistribute it and/or modify
@@ -16,11 +16,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <sys/time.h>
 #include <stdint.h>
 
-#include "merradsort.h"
+#include "mrgsort.h"
 
 typedef struct {
     int index;

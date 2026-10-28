@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-SORTLIB_SRC := merradsort.c
+SORTLIB_SRC := mrgsort.c
 SORTLIB_OBJ := $(SORTLIB_SRC:%.c=%.o)
 EXAMPLE_SRC := example.c
 EXAMPLE_BIN := $(EXAMPLE_SRC:%.c=%)

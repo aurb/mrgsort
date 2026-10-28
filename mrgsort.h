@@ -1,4 +1,4 @@
-/*  Merge and radix sort C functions
+/*  Merge sort C function
     Copyright (C) 2024 Andrzej Urbaniak
 
     This program is free software: you can redistribute it and/or modify
@@ -14,8 +14,8 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 
-#ifndef MERRADSORT_H
-#define MERRADSORT_H
+#ifndef MRGSORT_H
+#define MRGSORT_H
 
 #include <stddef.h>
 void merge_sort(void *base, void *sort_buffer, size_t nmemb, size_t size, int (*compar)(const void *, const void*));
